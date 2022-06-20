@@ -1,4 +1,4 @@
-def call()
+def call(String invalue)
 {
-  echo " Heh ...... this is the reusable Code " 
+  echo " Heh ...... this is the ${invalue} " 
 }
