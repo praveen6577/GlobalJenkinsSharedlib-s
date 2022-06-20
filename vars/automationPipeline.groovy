@@ -1,4 +1,4 @@
-def call(String a1,String a2 )
+def call(Map config[:])
 {
-  echo " Heh ...... printing the values of ${a1} & ${a2} " 
+  echo " Heh ...... name is  ${config.name} & second value is ${config.age} " 
 }
