@@ -1,4 +1,4 @@
-def call(String invalue)
+def call(String a1,String a2 )
 {
-  echo " Heh ...... this is the ${invalue} " 
+  echo " Heh ...... printing the values of ${a1} & ${a2} " 
 }
